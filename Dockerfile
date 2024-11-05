@@ -11,14 +11,14 @@ WORKDIR /app
 # Copy package.json and yarn.lock to the container
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
-
 # Copy the rest of the application code to the container
 COPY . .
 
+# Install dependencies
+RUN npm install
+
 # Build the application
-RUN npm run build
+#RUN npm run build
 
 # Expose the port that the application will run on
 EXPOSE 3000

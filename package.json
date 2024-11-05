@@ -1,6 +1,7 @@
 {
-  "name": "delete_app_router",
-  "version": "0.1.0",
+  "name": "user-agent-based-rendering",
+  "repository": "https://github.com/vercel/examples.git",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,25 +10,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.2.9",
-    "@radix-ui/react-slot": "^1.1.0",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.446.0",
-    "next": "canary"
+    "@vercel/examples-ui": "^1.0.5",
+    "next": "15.0.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.15",
-    "class-variance-authority": "^0.7.0",
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss-animate": "^1.0.7",
-    "tailwindcss": "^3.4.1",
-    "tailwind-merge": "^2.5.2",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.2",
-    "next-themes": "^0.3.0"
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.28",
+    "@types/react-helmet": "^6.1.9",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "canary",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "turbo": "^1.8.5",
+    "typescript": "4.5.5"
   }
 }
