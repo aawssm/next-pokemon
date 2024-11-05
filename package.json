@@ -3,6 +3,7 @@
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
+  "packageManager": "pnpm@7.5.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
